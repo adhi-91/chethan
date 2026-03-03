@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wish Him on MARCH 04 🎉</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        
+        .fun-font {
+            font-family: 'Fredoka', sans-serif;
+        }
+        
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 2px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 8px 32px rgba(255, 105, 180, 0.3);
+        }
+        
+        .bounce-slow {
+            animation: bounce-slow 2s infinite;
+        }
+        
+        @keyframes bounce-slow {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .wiggle {
+            animation: wiggle 1s ease-in-out infinite;
+        }
+        
+        @keyframes wiggle {
+            0%, 100% { transform: rotate(-3deg); }
+            50% { transform: rotate(3deg); }
+        }
+        
+        .float-emoji {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-15px) rotate(5deg); }
+        }
+        
+        .pulse-ring {
+            animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        }
+        
+        @keyframes pulse-ring {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 105, 180, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 20px rgba(255, 105, 180, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 105, 180, 0); }
+        }
+        
+        .gradient-text {
+            background: linear-gradient(45deg, #ff6b6b, #feca57, #ff9ff3, #54a0ff);
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient-shift 3s ease infinite;
+        }
+        
+        @keyframes gradient-shift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .btn-wish {
+            background: linear-gradient(45deg, #ff6b6b, #feca57);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-wish:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 10px 30px rgba(255, 107, 107, 0.4);
+        }
+        
+        .phone-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .phone-card:hover {
+            transform: scale(1.05) rotate(-2deg);
+        }
+        
+        .particle {
+            position: absolute;
+            pointer-events: none;
+            opacity: 0;
+            animation: particle-float 3s ease-out forwards;
+        }
+        
+        @keyframes particle-float {
+            0% { opacity: 1; transform: translateY(0) scale(0); }
+            100% { opacity: 0; transform: translateY(-100px) scale(1.5); }
+        }
+        
+        .countdown-box {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            padding: 10px;
+            min-width: 60px;
+        }
+    </style>
+</head>
+<body class="relative">
+
+    <!-- Floating Background Emojis -->
+    <div class="fixed inset-0 pointer-events-none overflow-hidden z-0">
+        <div class="absolute top-10 left-10 text-4xl float-emoji" style="animation-delay: 0s;">🎈</div>
+        <div class="absolute top-20 right-20 text-5xl float-emoji" style="animation-delay: 0.5s;">🎂</div>
+        <div class="absolute top-1/3 left-5 text-3xl float-emoji" style="animation-delay: 1s;">🎁</div>
+        <div class="absolute bottom-20 right-10 text-4xl float-emoji" style="animation-delay: 1.5s;">🎉</div>
+        <div class="absolute bottom-32 left-20 text-3xl float-emoji" style="animation-delay: 2s;">🎊</div>
+        <div class="absolute top-1/2 right-5 text-4xl float-emoji" style="animation-delay: 2.5s;">✨</div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="relative z-10 container mx-auto px-4 py-6 min-h-screen flex flex-col items-center justify-center">
+        
+        <!-- Header Banner -->
+        <div class="glass-panel rounded-3xl p-6 mb-8 text-center max-w-2xl w-full transform hover:scale-105 transition-transform duration-300">
+            <div class="text-6xl mb-2 bounce-slow">🎂</div>
+            <h1 class="fun-font text-4xl md:text-6xl font-bold gradient-text mb-2">
+                Wish CHETHAN on MARCH 04 🎉
+            </h1>
+            <p class="text-gray-700 text-lg font-semibold">And I'm collecting wishes! 📱✨</p>
+        </div>
+
+        
+        <!-- Photo Section -->
+        <div class="glass-panel rounded-3xl p-6 mb-8 text-center max-w-md w-full">
+            <img src="photo.jpg" alt="CHETHAN Photo" 
+                 class="w-48 h-48 object-cover rounded-full mx-auto shadow-2xl border-4 border-white mb-4">
+            <h2 class="fun-font text-3xl font-bold text-gray-800">CHETHAN</h2>
+            <p class="text-gray-700 font-semibold">📅 March 04</p>
+        </div>
+
+        <!-- Main Ask Section -->
+        <div class="glass-panel rounded-3xl p-8 max-w-lg w-full text-center mb-8 relative overflow-hidden">
+            <div class="absolute -top-10 -right-10 text-8xl opacity-20 rotate-12">🎁</div>
+            <div class="absolute -bottom-10 -left-10 text-8xl opacity-20 -rotate-12">🎈</div>
+            
+            <div class="relative z-10">
+                <div class="text-5xl mb-4 wiggle inline-block">😊</div>
+                <h2 class="fun-font text-3xl font-bold text-gray-800 mb-4">
+                    Wish Me Happy Birthday!
+                </h2>
+                <p class="text-gray-700 text-lg mb-6 leading-relaxed">
+                    Hey there! Today's my special day and I'd love to hear from you! 
+                    <br><span class="font-bold text-pink-600">Drop me a call or WhatsApp</span> to make my day even more awesome! 🎉
+                </p>
+                
+                <!-- Phone Number Card -->
+                <div class="phone-card rounded-2xl p-6 text-white shadow-2xl mb-6 pulse-ring cursor-pointer" onclick="copyNumber()">
+                    <div class="text-3xl mb-2">📞</div>
+                    <div class="text-sm opacity-90 mb-1">Tap to Call / Copy</div>
+                    <div class="fun-font text-4xl font-bold tracking-wider">8073407976</div>
+                    <div class="text-xs mt-2 opacity-75">Available on WhatsApp too! 💬</div>
+                </div>
+
+                <!-- Quick Action Buttons -->
+                <div class="grid grid-cols-2 gap-4">
+                    <a href="tel:+918073407976" class="btn-wish rounded-full py-3 px-6 text-white font-bold text-lg flex items-center justify-center gap-2 shadow-lg">
+                        <span>📱</span> Call Now
+                    </a>
+                    <a href="https://wa.me/918073407976" class="bg-green-500 hover:bg-green-600 rounded-full py-3 px-6 text-white font-bold text-lg flex items-center justify-center gap-2 shadow-lg transition-all transform hover:scale-105">
+                        <span>💬</span> WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why Call Me Section -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl w-full mb-8">
+            <div class="glass-panel rounded-2xl p-5 text-center hover:transform hover:scale-105 transition-all">
+                <div class="text-4xl mb-2">🎵</div>
+                <h3 class="font-bold text-gray-800">Birthday Song</h3>
+                <p class="text-sm text-gray-600">Sing me happy birthday! 🎤</p>
+            </div>
+            <div class="glass-panel rounded-2xl p-5 text-center hover:transform hover:scale-105 transition-all">
+                <div class="text-4xl mb-2">🍕</div>
+                <h3 class="font-bold text-gray-800">Party Invite</h3>
+                <p class="text-sm text-gray-600">Ask about my party! 🎊</p>
+            </div>
+            <div class="glass-panel rounded-2xl p-5 text-center hover:transform hover:scale-105 transition-all">
+                <div class="text-4xl mb-2">🎁</div>
+                <h3 class="font-bold text-gray-800">Gift Ideas</h3>
+                <p class="text-sm text-gray-600">Or just say hi! 😄</p>
+            </div>
+        </div>
+
+        <!-- Interactive Wish Counter -->
+        <div class="glass-panel rounded-2xl p-6 text-center max-w-md w-full">
+            <h3 class="fun-font text-2xl font-bold text-gray-800 mb-4">Birthday Wish Counter 🎯</h3>
+            <div class="flex justify-center gap-4 mb-4">
+                <div class="countdown-box">
+                    <div class="text-2xl font-bold text-pink-600" id="wishCount">0</div>
+                    <div class="text-xs text-gray-600">Wishes</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="text-2xl font-bold text-purple-600" id="callCount">0</div>
+                    <div class="text-xs text-gray-600">Calls</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="text-2xl font-bold text-blue-600" id="msgCount">0</div>
+                    <div class="text-xs text-gray-600">Messages</div>
+                </div>
+            </div>
+            <button onclick="addWish()" class="bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold py-2 px-6 rounded-full hover:shadow-lg transition-all transform hover:scale-110 active:scale-95">
+                I Wished You! ✨
+            </button>
+        </div>
+
+        <!-- Footer -->
+        <div class="mt-8 text-center text-gray-600 text-sm">
+            <p>Made with ❤️ | Waiting for your call at <strong>8073407976</strong></p>
+        </div>
+    </div>
+
+    <!-- Copy Notification -->
+    <div id="copyNotify" class="fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-full shadow-2xl transform translate-x-full transition-transform duration-300 z-50 font-bold">
+        Number Copied! 📋
+    </div>
+
+    <script>
+        // Animate counters on load
+        let wishes = 42;
+        let calls = 18;
+        let messages = 35;
+        
+        function animateValue(id, start, end, duration) {
+            let obj = document.getElementById(id);
+            let range = end - start;
+            let minTimer = 50;
+            let stepTime = Math.abs(Math.floor(duration / range));
+            stepTime = Math.max(stepTime, minTimer);
+            let startTime = new Date().getTime();
+            let endTime = startTime + duration;
+            let timer;
+            
+            function run() {
+                let now = new Date().getTime();
+                let remaining = Math.max((endTime - now) / duration, 0);
+                let value = Math.round(end - (remaining * range));
+                obj.innerHTML = value;
+                if (value == end) {
+                    clearInterval(timer);
+                }
+            }
+            
+            timer = setInterval(run, stepTime);
+            run();
+        }
+
+        window.onload = function() {
+            animateValue("wishCount", 0, wishes, 2000);
+            animateValue("callCount", 0, calls, 2000);
+            animateValue("msgCount", 0, messages, 2000);
+        };
+
+        // Copy number function
+        function copyNumber() {
+            navigator.clipboard.writeText('8073407976');
+            const notify = document.getElementById('copyNotify');
+            notify.classList.remove('translate-x-full');
+            setTimeout(() => {
+                notify.classList.add('translate-x-full');
+            }, 2000);
+            createParticles(event.clientX, event.clientY);
+        }
+
+        // Add wish interaction
+        function addWish() {
+            wishes++;
+            document.getElementById('wishCount').innerHTML = wishes;
+            
+            // Create burst effect
+            const btn = event.target;
+            const rect = btn.getBoundingClientRect();
+            createParticles(rect.left + rect.width/2, rect.top);
+            
+            // Change button text temporarily
+            const originalText = btn.innerHTML;
+            btn.innerHTML = 'Thanks! 🎉';
+            btn.classList.add('bg-green-500');
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+                btn.classList.remove('bg-green-500');
+            }, 1500);
+        }
+
+        // Particle effect
+        function createParticles(x, y) {
+            const colors = ['#ff6b6b', '#feca57', '#48dbfb', '#ff9ff3', '#54a0ff'];
+            for (let i = 0; i < 12; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = x + 'px';
+                particle.style.top = y + 'px';
+                particle.style.width = '10px';
+                particle.style.height = '10px';
+                particle.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                particle.style.borderRadius = '50%';
+                particle.style.transform = `translate(${(Math.random() - 0.5) * 100}px, ${(Math.random() - 0.5) * 100}px)`;
+                document.body.appendChild(particle);
+                setTimeout(() => particle.remove(), 3000);
+            }
+        }
+
+        // Floating background animation
+        setInterval(() => {
+            const emojis = ['🎈', '🎂', '🎁', '🎉', '🎊', '✨', '🍰', '🕯️'];
+            const emoji = document.createElement('div');
+            emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+            emoji.style.position = 'fixed';
+            emoji.style.left = Math.random() * 100 + 'vw';
+            emoji.style.top = '-50px';
+            emoji.style.fontSize = (Math.random() * 20 + 20) + 'px';
+            emoji.style.pointerEvents = 'none';
+            emoji.style.zIndex = '0';
+            emoji.style.opacity = '0.6';
+            emoji.style.animation = 'float-down 4s linear forwards';
+            document.body.appendChild(emoji);
+            
+            setTimeout(() => emoji.remove(), 4000);
+        }, 2000);
+
+        // Add float-down animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes float-down {
+                to { transform: translateY(100vh) rotate(360deg); }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
